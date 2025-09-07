@@ -147,8 +147,8 @@ configureRemover({
 |-------------|----------------|-------------------|
 | 50-100 | 5-15 minutes | `startRemover(100)` |
 | 100-500 | 15-60 minutes | `startRemover(500)` |
-| 500-1000 | 1-2 hours | `startBatchRemoval([200,200,200,200,200])` |
-| 1000+ | 2+ hours | Multiple batch sessions |
+| 500-1000 | 1-2 hours | `startBatchRemoval([200,200,200,200,200])` with 30s breaks |
+| 1000+ | 2+ hours | Multiple batch sessions with breaks |
 
 ## 🤝 Contributing
 
